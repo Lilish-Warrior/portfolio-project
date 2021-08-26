@@ -1,0 +1,13 @@
+:root {
+    --heading-font-familiy: 'Playfair Display', serif;
+    --paragrahp-font-family: font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  color: red;
+  font-family: var(--heading-font-familiy);
+}
+
+p {
+    font-family: var(--paragrahp-font-family);
+}
