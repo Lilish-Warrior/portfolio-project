@@ -104,6 +104,9 @@ footer {
 }
 
 @media (max-width: 960px) {
+  body {
+    background-color: var(--background-color);
+  }
   h1 {
     font-size: 44px;
     line-height: 2;
@@ -117,5 +120,8 @@ footer {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+  .paragraph-top-responsive {
+    padding: 40px;
   }
 }
