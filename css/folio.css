@@ -82,6 +82,10 @@ p {
   font-size: 40px;
 }
 
+.bg-theme {
+    background-color: var(--background-color);
+}
+
 .project-description {
   padding: 120px 60px;
 }
