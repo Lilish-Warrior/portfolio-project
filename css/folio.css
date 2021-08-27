@@ -35,6 +35,10 @@ p {
   line-height: 30px;
 }
 
+footer {
+  justify-content: space-evenly;
+}
+
 .hero {
   background: var(--background-color);
   text-align: center;
@@ -83,11 +87,20 @@ p {
 }
 
 .bg-theme {
-    background-color: var(--background-color);
+  background-color: var(--background-color);
 }
 
 .project-description {
   padding: 120px 60px;
+}
+
+.icon-footer {
+  color: var(--primary-button-color);
+  font-size: 50px;
+}
+.link-footer {
+  text-decoration: none;
+  color: var(--primary-button-color);
 }
 
 @media (max-width: 960px) {
