@@ -175,4 +175,7 @@ footer {
   .content-style {
     text-align: center;
   }
+  .navbar-brand {
+    color: var(--primary-button-color) !important;
+  }
 }
