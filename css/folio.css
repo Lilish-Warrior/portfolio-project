@@ -129,6 +129,14 @@ footer {
   text-decoration: none;
   color: var(--primary-button-color);
 }
+.footer-link-icon {
+  color: var(--primary-button-color);
+  padding: 0;
+}
+.footer-container {
+  background: var(--background-color);
+}
+
 
 @media (max-width: 960px) {
   body {
@@ -157,7 +165,7 @@ footer {
   .content-style h1 {
     font-size: 44px;
   }
-  .content-style  {
+  .content-style {
     text-align: center;
   }
 }
