@@ -50,7 +50,7 @@ footer {
 .hero {
   background: var(--background-color);
   text-align: center;
-  padding: 100px 20px;
+  padding: 120px 20px;
 }
 
 .hero p {
@@ -128,6 +128,11 @@ footer {
 .project-description {
   padding: 120px 60px;
 }
+.link-contact-page {
+  text-decoration: none;
+  color: #6c63ff;
+  font-size: 18px;
+}
 
 .icon-footer {
   color: var(--primary-button-color);
@@ -156,16 +161,20 @@ footer {
   h2 {
     font-size: 42px;
   }
+
   .hero {
-    padding: 80px 20px;
+    padding: 10px 20px;
   }
+
   .project-description {
     padding: 0;
     text-align: center;
   }
+
   .paragraph-top-responsive {
     padding: 40px;
   }
+
   .content-container {
     padding: 80px 20px;
   }
