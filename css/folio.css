@@ -108,7 +108,8 @@ footer {
   color: white;
   font-size: 18px;
   line-height: 27px;
-  padding: 15px 30px;
+  padding: 15px 20px;
+  margin: 10px;
 }
 
 .btn-brand-outline {
