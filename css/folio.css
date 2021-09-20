@@ -137,6 +137,11 @@ footer {
 .project-description {
   padding: 120px 60px;
 }
+
+.design-images {
+  margin-left: 30px;
+}
+
 .link-contact-page {
   text-decoration: none;
   color: #6c63ff;
