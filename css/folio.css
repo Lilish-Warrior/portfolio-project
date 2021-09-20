@@ -93,6 +93,15 @@ footer {
   margin: 30px;
 }
 
+.desing-info strong {
+  font-size: 18px;
+  padding-bottom: 50px;
+}
+
+.desing-info {
+  line-height: 1.5;
+}
+
 .primary-button {
   background-color: var(--primary-button-color);
   border-radius: 4px;
