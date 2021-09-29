@@ -90,7 +90,7 @@ footer {
   line-height: 80px;
 }
 .content-style h2 {
-  font-size: 18px;
+  font-size: 24px;
   font-family: var(--default-font-family);
 }
 .content-style h3 {
@@ -101,7 +101,7 @@ footer {
 }
 
 .content-style p {
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .content-style {
@@ -127,15 +127,6 @@ footer {
   margin: 10px;
 }
 
-.btn-brand-outline {
-  color: var(--primary-button-color);
-  border: 1px solid var(--primary-button-color);
-  border-radius: 4px;
-  font-size: 16px;
-  line-height: 24px;
-  padding: 15px 30px;
-}
-
 .logo {
   font-family: var(--logo-font-family);
   font-weight: bolder;
@@ -154,10 +145,6 @@ footer {
   padding: 120px 60px;
 }
 
-.design-images {
-  margin-left: 30px;
-  margin-right: 30px;
-}
 
 .link-contact-page {
   text-decoration: none;
@@ -207,11 +194,31 @@ footer {
     padding: 80px 20px 0px 20px;
   }
 
+.hero .about-paragraph {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: var (--default-font-family);
+  padding: 10px;
+}
+
+.hero .img-front {
+  max-width: 400px;
+  margin-bottom: 30px;
+}
+
+.hero .btn {
+  font-size: 14px;
+  padding: 10px 20px;
+  margin-bottom: 50px;
+}
+
   .project-description {
     padding: 0;
     text-align: center;
   }
-
 
   .content-container {
     padding: 80px 20px;
