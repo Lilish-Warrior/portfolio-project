@@ -145,8 +145,6 @@ footer {
   padding: 120px 60px;
 }
 
-
-
 .link-contact-page {
   text-decoration: none;
   color: #6c63ff;
@@ -220,12 +218,15 @@ footer {
   .content-container {
     padding: 80px 20px;
   }
-  .content-style h1 {
-    font-size: 44px;
-  }
+
   .content-style {
     text-align: center;
   }
+
+  .content-style h1 {
+    font-size: 50px;
+  }
+
   .navbar-brand {
     color: var(--primary-button-color) !important;
   }
