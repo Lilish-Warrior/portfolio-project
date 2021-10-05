@@ -1,5 +1,6 @@
 :root {
   --background-color: #f9f7fe;
+  --design-container-color: #fff7e3;
   --primary-button-color: #6c63ff;
   --heading-font-familiy: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
@@ -109,7 +110,7 @@ footer {
 }
 
 .design-container {
-  background-color: #fff7e3;
+  background-color: var(--design-container-color);
 }
 
 .design-container-nocolor {
@@ -136,13 +137,26 @@ footer {
 .design-subtitles {
   font-size: 40px;
   padding: 20px;
+  margin: 20px;
 }
 .design-paragraphs {
-  font-size: 1.4em;
+  font-size: 1.1em;
   line-height: 1.6;
-  font-weight: 300;
+  color: #656565;
+  max-width: 766px;
+  margin-bottom: 20px;
+  background-color: var(--design-container-color);
+  padding: 20px;
+}
+.design-list {
+  list-style: circle;
+  color: #656565;
 }
 
+.design-reference {
+  list-style:decimal;
+ 
+}
 .primary-button {
   background-color: var(--primary-button-color);
   border-radius: 4px;
