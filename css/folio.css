@@ -109,7 +109,12 @@ footer {
 }
 
 .design-container {
-  background-color: #FFF7E3;
+  background-color: #fff7e3;
+}
+
+.design-container-nocolor {
+  padding: 20px;
+  margin-bottom: 50px;
 }
 
 .design-main-photo {
@@ -118,6 +123,25 @@ footer {
   border: 5px solid var(--primary-button-color);
 }
 
+.design-picture-presentation {
+  max-width: 900px;
+}
+.design-picture-content {
+  max-width: 800px;
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.design-subtitles {
+  font-size: 40px;
+  padding: 20px;
+}
+.design-paragraphs {
+  font-size: 1.4em;
+  line-height: 1.6;
+  font-weight: 300;
+}
 
 .primary-button {
   background-color: var(--primary-button-color);
