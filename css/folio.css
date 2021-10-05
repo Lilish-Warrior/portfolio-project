@@ -154,8 +154,7 @@ footer {
 }
 
 .design-reference {
-  list-style:decimal;
- 
+  list-style: decimal;
 }
 .primary-button {
   background-color: var(--primary-button-color);
@@ -273,5 +272,31 @@ footer {
 
   .border-display-small {
     border: 5px solid var(--primary-button-color);
+  }
+
+  .design-container {
+    background-color: var(--background-color);
+  }
+
+  .design-main-photo {
+    max-height: 300px;
+  }
+  .design-container-nocolor {
+    padding: 0;
+  }
+  .design-subtitles {
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+  }
+  .design-paragraphs {
+    font-size: 1em;
+    max-width: 600px;
+    background-color: var(--background-color);
+  }
+  .design-picture-content {
+    max-width: 400px;
+    padding: 10px;
   }
 }
