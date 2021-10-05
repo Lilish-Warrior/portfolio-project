@@ -149,7 +149,7 @@ footer {
   padding: 20px;
 }
 .design-list {
-  list-style: circle;
+  list-style: none;
   color: #656565;
 }
 
