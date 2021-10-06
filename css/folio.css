@@ -109,19 +109,11 @@ footer {
   margin: 30px;
 }
 
-.design-container {
-  background-color: var(--design-container-color);
-}
-
-.design-container-nocolor {
-  padding: 20px;
-  margin-bottom: 50px;
-}
-
 .design-main-photo {
-  margin-top: 120px;
+  display: block;
+  margin: 30px auto;
   max-height: 500px;
-  border: 5px solid var(--primary-button-color);
+  padding-bottom: 10px;
 }
 
 .design-picture-presentation {
@@ -130,23 +122,21 @@ footer {
 .design-picture-content {
   max-width: 800px;
   display: block;
-  margin: 0 auto;
-  padding: 20px;
+  margin: 40px auto;
 }
 
 .design-subtitles {
   font-size: 40px;
-  padding: 20px;
-  margin: 20px;
+  margin-bottom: 40px;
+  margin-top: 40px;
 }
+
 .design-paragraphs {
   font-size: 16px;
   line-height: 1.6;
   color: #656565;
   max-width: 766px;
-  margin-bottom: 20px;
-
-  padding: 20px;
+  margin-bottom: 40px;
 }
 .design-list {
   list-style: none;
@@ -155,12 +145,15 @@ footer {
 
 .design-reference {
   list-style: decimal;
+  font-size: 12px;
+  margin-top: 10px;
 }
 
 .design-caption {
   text-align: center;
   font-size: 12px;
   color: #656565;
+  margin-bottom: 80px;
 }
 
 .primary-button {
