@@ -123,6 +123,13 @@ footer {
   margin: 0 auto;
   margin-bottom: 40px;
 }
+.design-picture-big {
+   max-width: 1200px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 40px;
+
+}
 
 .design-subtitles {
   font-size: 40px;
