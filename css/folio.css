@@ -111,18 +111,17 @@ footer {
 
 .design-main-photo {
   display: block;
-  margin: 30px auto;
+  margin: 0 auto;
   max-height: 500px;
   padding-bottom: 10px;
+  margin-bottom: 50px;
 }
 
-.design-picture-presentation {
-  max-width: 900px;
-}
 .design-picture-content {
   max-width: 800px;
   display: block;
-  margin: 40px auto;
+  margin: 0 auto;
+  margin-bottom: 40px;
 }
 
 .design-subtitles {
@@ -274,16 +273,10 @@ footer {
     border: 5px solid var(--primary-button-color);
   }
 
-  .design-container {
-    background-color: var(--background-color);
-  }
-
   .design-main-photo {
     max-height: 300px;
   }
-  .design-container-nocolor {
-    padding: 0;
-  }
+
   .design-subtitles {
     font-size: 20px;
     padding: 10px;
@@ -291,12 +284,9 @@ footer {
     text-align: center;
   }
   .design-paragraphs {
-    font-size: 1em;
-    max-width: 600px;
-    background-color: var(--background-color);
+    font-size: 12px;
   }
   .design-picture-content {
     max-width: 400px;
-    padding: 10px;
   }
 }
